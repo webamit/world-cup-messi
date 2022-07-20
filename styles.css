@@ -231,6 +231,12 @@ footer{
 .match{
     text-align: center;
 padding: 20px;
+transition: border 5s, background-color 2s;
+}
+
+.match:hover{
+    border: 1px solid var(--primary-bg-color);
+    background-color: rgb(179, 184, 245);
 }
 .vsflag{
     display: flex;
